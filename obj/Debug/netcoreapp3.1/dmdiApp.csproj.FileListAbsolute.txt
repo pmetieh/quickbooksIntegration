@@ -1,0 +1,14 @@
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.exe
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.deps.json
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.runtimeconfig.json
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.runtimeconfig.dev.json
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.dll
+D:\csharp\dmdiApp\bin\Debug\netcoreapp3.1\dmdiApp.pdb
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.AssemblyInfoInputs.cache
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.AssemblyInfo.cs
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.csproj.CoreCompileInputs.cache
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.dll
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.pdb
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.genruntimeconfig.cache
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.csproj.AssemblyReference.cache
+D:\csharp\dmdiApp\obj\Debug\netcoreapp3.1\dmdiApp.GeneratedMSBuildEditorConfig.editorconfig

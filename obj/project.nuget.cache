@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "hQ0NF+6odudt3DMDslBxYkwLUJkXJFq1vSD7BDet9zUB7xr8T2oYXH5Y9cWruOmw2ntdjW8jReYEtKTE8Emesg==",
+  "success": false,
+  "projectFilePath": "d:\\csharp\\dmdiApp\\dmdiApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PaulMetieh\\.nuget\\packages\\livesharp.server\\2.0.6\\livesharp.server.2.0.6.nupkg.sha512",
+    "C:\\Users\\PaulMetieh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\PaulMetieh\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveSharp.Server 2.0.6 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package LiveSharp.Server 2.0.6 supports: net5.0 (.NETCoreApp,Version=v5.0) / any",
+      "libraryId": "LiveSharp.Server",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1212",
+      "level": "Error",
+      "message": "Invalid project-package combination for LiveSharp.Server 2.0.6. DotnetToolReference project style can only contain references of the DotnetTool type ",
+      "libraryId": "LiveSharp.Server",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

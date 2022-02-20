@@ -1,0 +1,408 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "LiveSharp.Server/2.0.6": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiveSharp.Server/2.0.6": {
+      "sha512": "hf6OYRbixn7EBp46SSxMmH0KD+StWG+XvP5YgBp3jagrs7FJN4kj3QG7SJgA3AVbCYkUrp5qKwkcK8XMnq/n5w==",
+      "type": "package",
+      "path": "livesharp.server/2.0.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LiveSharp.Server.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/LiveSharp.Server.props",
+        "buildTransitive/LiveSharp.Server.props",
+        "content/appsettings.Development.json",
+        "content/appsettings.json",
+        "content/package-lock.json",
+        "content/package.json",
+        "contentFiles/any/net5.0/appsettings.Development.json",
+        "contentFiles/any/net5.0/appsettings.json",
+        "contentFiles/any/net5.0/package-lock.json",
+        "contentFiles/any/net5.0/package.json",
+        "livesharp.server.2.0.6.nupkg.sha512",
+        "livesharp.server.nuspec",
+        "staticwebassets/assets/css/app.css",
+        "staticwebassets/assets/css/app.out.css",
+        "staticwebassets/assets/css/font-awesome/css/all.css",
+        "staticwebassets/assets/css/font-awesome/css/all.min.css",
+        "staticwebassets/assets/css/font-awesome/css/brands.css",
+        "staticwebassets/assets/css/font-awesome/css/brands.min.css",
+        "staticwebassets/assets/css/font-awesome/css/fontawesome.css",
+        "staticwebassets/assets/css/font-awesome/css/fontawesome.min.css",
+        "staticwebassets/assets/css/font-awesome/css/regular.css",
+        "staticwebassets/assets/css/font-awesome/css/regular.min.css",
+        "staticwebassets/assets/css/font-awesome/css/solid.css",
+        "staticwebassets/assets/css/font-awesome/css/solid.min.css",
+        "staticwebassets/assets/css/font-awesome/css/svg-with-js.css",
+        "staticwebassets/assets/css/font-awesome/css/svg-with-js.min.css",
+        "staticwebassets/assets/css/font-awesome/css/v4-shims.css",
+        "staticwebassets/assets/css/font-awesome/css/v4-shims.min.css",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-brands-400.eot",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-brands-400.svg",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-brands-400.ttf",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-brands-400.woff",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-brands-400.woff2",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-regular-400.eot",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-regular-400.svg",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-regular-400.ttf",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-regular-400.woff",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-regular-400.woff2",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-solid-900.eot",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-solid-900.svg",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-solid-900.ttf",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-solid-900.woff",
+        "staticwebassets/assets/css/font-awesome/webfonts/fa-solid-900.woff2",
+        "staticwebassets/assets/css/vue-autosuggest.css",
+        "staticwebassets/assets/favicon.ico",
+        "staticwebassets/assets/img/icons.svg",
+        "staticwebassets/assets/img/splashscreen.png",
+        "staticwebassets/assets/js/ex-links.js",
+        "staticwebassets/assets/js/font-awesome.js",
+        "staticwebassets/assets/js/screen-server.js",
+        "staticwebassets/assets/js/vue.js",
+        "staticwebassets/assets/lib/bootstrap/LICENSE/LICENSE",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-grid.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-reboot.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap.min.css",
+        "staticwebassets/assets/lib/bootstrap/dist/css/bootstrap.min.css.map",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.bundle.js",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.js",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.js.map",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.min.js",
+        "staticwebassets/assets/lib/bootstrap/dist/js/bootstrap.min.js.map",
+        "staticwebassets/assets/lib/jquery-validation-unobtrusive/LICENSE.txt",
+        "staticwebassets/assets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+        "staticwebassets/assets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+        "staticwebassets/assets/lib/jquery-validation/LICENSE.md",
+        "staticwebassets/assets/lib/jquery-validation/dist/additional-methods.js",
+        "staticwebassets/assets/lib/jquery-validation/dist/additional-methods.min.js",
+        "staticwebassets/assets/lib/jquery-validation/dist/jquery.validate.js",
+        "staticwebassets/assets/lib/jquery-validation/dist/jquery.validate.min.js",
+        "staticwebassets/assets/lib/jquery/LICENSE.txt",
+        "staticwebassets/assets/lib/jquery/dist/jquery.js",
+        "staticwebassets/assets/lib/jquery/dist/jquery.min.js",
+        "staticwebassets/assets/lib/jquery/dist/jquery.min.map",
+        "staticwebassets/components/app/app-screen.js",
+        "staticwebassets/components/help/help-screen.js",
+        "staticwebassets/components/imports.js",
+        "staticwebassets/components/inspector/inspector-methods-tab.js",
+        "staticwebassets/components/inspector/inspector-screen.js",
+        "staticwebassets/components/inspector/inspector-vms-tab.js",
+        "staticwebassets/components/license/license-screen.js",
+        "staticwebassets/components/log-container.js",
+        "staticwebassets/components/log/log-screen.js",
+        "staticwebassets/components/menu-item.js",
+        "staticwebassets/components/news/news-screen.js",
+        "staticwebassets/components/status/status-screen.js",
+        "staticwebassets/css/app.min.css",
+        "staticwebassets/css/app.tw.css",
+        "staticwebassets/css/bootstrap/bootstrap.min.css",
+        "staticwebassets/css/bootstrap/bootstrap.min.css.map",
+        "staticwebassets/css/open-iconic/FONT-LICENSE/FONT-LICENSE",
+        "staticwebassets/css/open-iconic/ICON-LICENSE/ICON-LICENSE",
+        "staticwebassets/css/open-iconic/README.md",
+        "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot",
+        "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf",
+        "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg",
+        "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf",
+        "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff",
+        "staticwebassets/css/site.css",
+        "tools/net5.0/any/DotnetToolSettings.xml",
+        "tools/net5.0/any/HtmlAgilityPack.dll",
+        "tools/net5.0/any/LiveSharp.Server.Views.dll",
+        "tools/net5.0/any/LiveSharp.Server.Views.pdb",
+        "tools/net5.0/any/LiveSharp.Server.deps.json",
+        "tools/net5.0/any/LiveSharp.Server.dll",
+        "tools/net5.0/any/LiveSharp.Server.pdb",
+        "tools/net5.0/any/LiveSharp.Server.runtimeconfig.json",
+        "tools/net5.0/any/LiveSharp.dll",
+        "tools/net5.0/any/LiveSharp.pdb",
+        "tools/net5.0/any/System.Reactive.dll",
+        "tools/net5.0/any/System.Reactive.xml",
+        "tools/net5.0/any/appsettings.Development.json",
+        "tools/net5.0/any/appsettings.json",
+        "tools/net5.0/any/localhost.livesharp.net.pfx",
+        "tools/net5.0/any/package-lock.json",
+        "tools/net5.0/any/package.json",
+        "tools/net5.0/any/wwwroot/assets/css/app.css",
+        "tools/net5.0/any/wwwroot/assets/css/app.out.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/all.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/all.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/brands.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/brands.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/fontawesome.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/fontawesome.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/regular.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/regular.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/solid.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/solid.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/svg-with-js.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/svg-with-js.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/v4-shims.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/css/v4-shims.min.css",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-brands-400.eot",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-brands-400.svg",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-brands-400.ttf",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-brands-400.woff",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-brands-400.woff2",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-regular-400.eot",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-regular-400.svg",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-regular-400.ttf",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-regular-400.woff",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-regular-400.woff2",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-solid-900.eot",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-solid-900.svg",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-solid-900.ttf",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-solid-900.woff",
+        "tools/net5.0/any/wwwroot/assets/css/font-awesome/webfonts/fa-solid-900.woff2",
+        "tools/net5.0/any/wwwroot/assets/css/vue-autosuggest.css",
+        "tools/net5.0/any/wwwroot/assets/favicon.ico",
+        "tools/net5.0/any/wwwroot/assets/img/icons.svg",
+        "tools/net5.0/any/wwwroot/assets/img/splashscreen.png",
+        "tools/net5.0/any/wwwroot/assets/js/ex-links.js",
+        "tools/net5.0/any/wwwroot/assets/js/font-awesome.js",
+        "tools/net5.0/any/wwwroot/assets/js/screen-server.js",
+        "tools/net5.0/any/wwwroot/assets/js/vue.js",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/LICENSE",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-grid.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-reboot.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap.min.css",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/css/bootstrap.min.css.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.bundle.js",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.js",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.js.map",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/bootstrap/dist/js/bootstrap.min.js.map",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation-unobtrusive/LICENSE.txt",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation/LICENSE.md",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation/dist/additional-methods.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation/dist/additional-methods.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation/dist/jquery.validate.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery-validation/dist/jquery.validate.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery/LICENSE.txt",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery/dist/jquery.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery/dist/jquery.min.js",
+        "tools/net5.0/any/wwwroot/assets/lib/jquery/dist/jquery.min.map",
+        "tools/net5.0/any/wwwroot/components/app/app-screen.js",
+        "tools/net5.0/any/wwwroot/components/help/help-screen.js",
+        "tools/net5.0/any/wwwroot/components/imports.js",
+        "tools/net5.0/any/wwwroot/components/inspector/inspector-methods-tab.js",
+        "tools/net5.0/any/wwwroot/components/inspector/inspector-screen.js",
+        "tools/net5.0/any/wwwroot/components/inspector/inspector-vms-tab.js",
+        "tools/net5.0/any/wwwroot/components/license/license-screen.js",
+        "tools/net5.0/any/wwwroot/components/log-container.js",
+        "tools/net5.0/any/wwwroot/components/log/log-screen.js",
+        "tools/net5.0/any/wwwroot/components/menu-item.js",
+        "tools/net5.0/any/wwwroot/components/news/news-screen.js",
+        "tools/net5.0/any/wwwroot/components/status/status-screen.js",
+        "tools/net5.0/any/wwwroot/css/app.min.css",
+        "tools/net5.0/any/wwwroot/css/app.tw.css",
+        "tools/net5.0/any/wwwroot/css/bootstrap/bootstrap.min.css",
+        "tools/net5.0/any/wwwroot/css/bootstrap/bootstrap.min.css.map",
+        "tools/net5.0/any/wwwroot/css/open-iconic/FONT-LICENSE",
+        "tools/net5.0/any/wwwroot/css/open-iconic/ICON-LICENSE",
+        "tools/net5.0/any/wwwroot/css/open-iconic/README.md",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+        "tools/net5.0/any/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+        "tools/net5.0/any/wwwroot/css/site.css"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RestSharp/106.12.0": {
+      "sha512": "irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "type": "package",
+      "path": "restsharp/106.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.12.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "LiveSharp.Server >= 2.0.6",
+      "Newtonsoft.Json >= 13.0.1",
+      "RestSharp >= 106.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PaulMetieh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\csharp\\dmdiApp\\dmdiApp.csproj",
+      "projectName": "dmdiApp",
+      "projectPath": "d:\\csharp\\dmdiApp\\dmdiApp.csproj",
+      "packagesPath": "C:\\Users\\PaulMetieh\\.nuget\\packages\\",
+      "outputPath": "d:\\csharp\\dmdiApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\PaulMetieh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
+        "dependencies": {
+          "LiveSharp.Server": {
+            "target": "Package",
+            "version": "[2.0.6, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.12.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveSharp.Server 2.0.6 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package LiveSharp.Server 2.0.6 supports: net5.0 (.NETCoreApp,Version=v5.0) / any",
+      "libraryId": "LiveSharp.Server",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1212",
+      "level": "Error",
+      "message": "Invalid project-package combination for LiveSharp.Server 2.0.6. DotnetToolReference project style can only contain references of the DotnetTool type ",
+      "libraryId": "LiveSharp.Server",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
